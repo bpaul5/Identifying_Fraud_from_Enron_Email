@@ -33,8 +33,6 @@ from sklearn import grid_search
 
 ######################## Task 1: Select what features you'll use.
 
-cd Documents/Classes/Udacity/Udacity Data/ud120-projects/final_project
-
 ### features_list is a list of strings, each of which is a feature name.
 ### The first feature must be "poi".
 # removed: 'email_address'
