@@ -6,8 +6,8 @@ import pickle
 import pandas as pd
 import numpy as np
 from statistics import mean
-sys.path.append("/Users/bindupaul/Documents/Classes/Udacity/Udacity Data/ud120-projects/tools/")
-sys.path.append("/Users/bindupaul/Documents/Classes/Udacity/Udacity Data/ud120-projects/final_project/")
+sys.path.append(".../tools/")
+sys.path.append(".../final_project/")
 from feature_format import featureFormat, targetFeatureSplit
 from tester import dump_classifier_and_data
 import matplotlib.pyplot as plt
