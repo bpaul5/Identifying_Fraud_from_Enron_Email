@@ -8,6 +8,7 @@ Identified which Enron employees are more likely to have committed fraud using m
 Topics Include:
 
 Python 
+
 -scikit-learn
 -machine learning
 -natural language processing
