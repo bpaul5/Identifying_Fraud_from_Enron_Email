@@ -3,8 +3,6 @@
 
 import os
 import sys
-#sys.path.append("/Users/bindupaul/Documents/Classes/Udacity/Udacity Data/ud120-projects/tools/")
-#sys.path.append("/Users/bindupaul/Documents/Classes/Udacity/Udacity Data/ud120-projects/final_project/")
 sys.path.append(".../tools/")
 sys.path.append(".../final_project/")
 import pickle
@@ -14,8 +12,6 @@ from sklearn.pipeline import Pipeline
 from sklearn.naive_bayes import GaussianNB
 from sklearn.preprocessing import MinMaxScaler
 from tester import dump_classifier_and_data
-
-#cd Documents/Classes/Udacity/Udacity Data/ud120-projects/final_project
 
 with open("final_project_dataset.pkl", "r") as data_file:
 	data_dict = pickle.load(data_file)
