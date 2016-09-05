@@ -1,5 +1,5 @@
 
-
+# this will create the pickle files with the least amout of code needed. 
 
 import os
 import sys
